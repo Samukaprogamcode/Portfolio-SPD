@@ -23,5 +23,5 @@ Para mais informações ou contratação de serviços, entre em contato via What
 
 ---
 
-© 2025 Meng Digital. Todos os direitos reservados.
+© 2025 Samuel Fernandes. Todos os direitos reservados.
 ``
