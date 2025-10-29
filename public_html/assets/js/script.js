@@ -122,3 +122,4 @@ setTimeout(() => {
   promo.innerHTML = '🎁 Oferta ativa: Sites + Anúncios + Google Meu Negócio com <span class="promo-span">50% OFF</span> — <a href="https://wa.me/5517997529375" target="_blank">Fale conosco</a>';
   document.body.appendChild(promo);
 }, 2000);
+
