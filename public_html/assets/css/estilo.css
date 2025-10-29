@@ -622,43 +622,54 @@ section h2 {
 }
 
 
-/* ==== BANNER PROMOCIONAL INFERIOR ==== */
+/* ==== MODO PROMOCIONAL TEMPORÁRIO ==== */
+.promo-span {
+  color: #ffeb3b;
+  font-weight: 700;
+  animation: pulse 1.5s infinite;
+}
+
+.promo-banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background: linear-gradient(90deg, #0b4968, #2194dc);
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
 .footer-promo {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 9999;
-    background: linear-gradient(90deg, #0b4968, #2194dc);
-    color: white;
-    text-align: center;
-    padding: 12px 0;
-    font-weight: 700;
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-    animation: pulse 2s infinite;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  background: linear-gradient(90deg, #0b4968, #2194dc);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 15px;
+  animation: pulse 2s infinite;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer-promo a {
-    color: #ffeb3b;
-    text-decoration: underline;
-    font-weight: 700;
+  color: #ffeb3b;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 @keyframes pulse {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.7;
-    }
-
-    100% {
-        opacity: 1;
-    }
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
 }
-
 
 
 .footer {
@@ -697,4 +708,5 @@ a {
 
 a:hover {
     color: #2194dc;
+
 }
