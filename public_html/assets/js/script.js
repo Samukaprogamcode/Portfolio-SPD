@@ -115,15 +115,10 @@ document.getElementById("cta-button").addEventListener("click", function () {
 });
 
 
-// Banner promocional inferior
+// Banner promocional inferior automático
 setTimeout(() => {
-    const promo = document.createElement('div');
-    promo.className = 'footer-promo';
-    promo.innerHTML = `
-    🎁 <strong>Promoção por tempo limitado:</strong> 
-    Sites + Anúncios + Google Meu Negócio com 
-    <span style="color:#ffeb3b;">50% OFF</span> — 
-    <a href="https://wa.me/5517997529375" target="_blank">Garanta agora</a> 🚀
-  `;
-    document.body.appendChild(promo);
-}, 1000);
+  const promo = document.createElement('div');
+  promo.className = 'footer-promo';
+  promo.innerHTML = '🎁 Oferta ativa: Sites + Anúncios + Google Meu Negócio com <span class="promo-span">50% OFF</span> — <a href="https://wa.me/5517997529375" target="_blank">Fale conosco</a>';
+  document.body.appendChild(promo);
+}, 2000);
