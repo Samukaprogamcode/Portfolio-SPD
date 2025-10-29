@@ -672,14 +672,17 @@ section h2 {
 }
 
 
-.footer {
+
+
+
+.cabecalho {
     background-color: #0b4968;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-.container {
+.container-cabecalho {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -708,5 +711,4 @@ a {
 
 a:hover {
     color: #2194dc;
-
 }
